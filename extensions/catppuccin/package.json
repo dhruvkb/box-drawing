@@ -22,11 +22,9 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "catalog:",
-    "@raycast/utils": "catalog:"
+    "@raycast/api": "catalog:"
   },
   "devDependencies": {
-    "@types/node": "catalog:",
     "@types/react": "catalog:",
     "typescript": "catalog:"
   },
