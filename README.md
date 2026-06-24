@@ -1,4 +1,4 @@
-# Beam
+# <img src="https://github.com/dhruvkb/beam/raw/main/readme_assets/logo.png" alt="" align="left" width="40" height="40"> Beam
 
 A monorepo of [Raycast](https://www.raycast.com/) extensions.
 
