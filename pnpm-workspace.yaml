@@ -1,2 +1,14 @@
+packages:
+  - "extensions/*"
+
+catalog:
+  "@raycast/api": ^1.104.5
+  "@raycast/utils": ^1.17.0
+  "@raycast/eslint-config": ^2.0.4
+  "@types/node": 22.13.10
+  "@types/react": 19.0.10
+  eslint: ^9.22.0
+  typescript: ^5.8.2
+
 allowBuilds:
   esbuild: true
