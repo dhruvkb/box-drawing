@@ -1,11 +1,9 @@
 import { useState } from "react";
 import { ActionPanel, Action, Grid } from "@raycast/api";
 import type { Color, Dataset } from "@/types";
-import { useColorFormatting } from "@/hooks/use-color-formatting";
 import dataset from "../assets/dataset.json";
 
 function GridItem({ item }: { item: Color }) {
-  const { rgb, hsl, oklch } = useColorFormatting(item);
   return (
     <Grid.Item
       key={`${item.hex}-${item.name}`}
@@ -17,9 +15,9 @@ function GridItem({ item }: { item: Color }) {
         <ActionPanel>
           <Action.Paste content={item.hex} />
           <Action.CopyToClipboard title="Copy Hex" content={item.hex} />
-          <Action.CopyToClipboard title="Copy RGB" content={rgb} />
-          <Action.CopyToClipboard title="Copy HSL" content={hsl} />
-          <Action.CopyToClipboard title="Copy OKLCH" content={oklch} />
+          <Action.CopyToClipboard title="Copy RGB" content={item.rgb} />
+          <Action.CopyToClipboard title="Copy HSL" content={item.hsl} />
+          <Action.CopyToClipboard title="Copy OKLCH" content={item.oklch} />
           <Action.OpenInBrowser title="Catppuccin Palette" url="https://catppuccin.com/palette/" />
           <Action.OpenInBrowser
             title="Catppuccin Style Guide"
