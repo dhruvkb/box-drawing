@@ -6,6 +6,8 @@ A monorepo of [Raycast](https://www.raycast.com/) extensions.
 
 - [`box-drawing`](extensions/box-drawing) — Browse and copy box-drawing
   characters to the clipboard.
+- [`catppuccin`](extensions/catppuccin) — Browse Catppuccin colors and copy them
+  in various formats.
 
 ## Development
 
