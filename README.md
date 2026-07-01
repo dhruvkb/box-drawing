@@ -4,11 +4,11 @@ A monorepo of [Raycast](https://www.raycast.com/) extensions.
 
 ## Extensions
 
-- [`box-drawing`](extensions/box-drawing) — Browse and copy box-drawing
+- <img src="https://github.com/dhruvkb/beam/raw/main/extensions/box-drawing/assets/extension-icon.png" alt="" align="left" width="24" height="24"> [`box-drawing`](extensions/box-drawing) — Browse and copy box-drawing
   characters to the clipboard.
-- [`catppuccin`](extensions/catppuccin) — Browse Catppuccin colors and copy them
+- <img src="https://github.com/dhruvkb/beam/raw/main/extensions/catppuccin/assets/extension-icon.png" alt="" align="left" width="24" height="24"> [`catppuccin`](extensions/catppuccin) — Browse Catppuccin colors and copy them
   in various formats.
-- [`tailwind`](extensions/tailwind) — Browse Tailwind CSS colors and copy them in
+- <img src="https://github.com/dhruvkb/beam/raw/main/extensions/tailwind/assets/extension-icon.png" alt="" align="left" width="24" height="24"> [`tailwind`](extensions/tailwind) — Browse Tailwind CSS colors and copy them in
   various formats.
 
 ## Development
