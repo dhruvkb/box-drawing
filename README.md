@@ -8,6 +8,8 @@ A monorepo of [Raycast](https://www.raycast.com/) extensions.
   characters to the clipboard.
 - [`catppuccin`](extensions/catppuccin) — Browse Catppuccin colors and copy them
   in various formats.
+- [`tailwind`](extensions/tailwind) — Browse Tailwind CSS colors and copy them in
+  various formats.
 
 ## Development
 
